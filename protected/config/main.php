@@ -51,7 +51,10 @@ return array(
 		*/
 
 		// database settings are configured in database.php
-		'db'=>require(dirname(__FILE__).'/database.php'),
+		'db'=>array(
+			'connectionString'=>'sqlite:protected/data/blog.db',
+        		'tablePrefix'=>'tbl_',
+       	 	),
 
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
