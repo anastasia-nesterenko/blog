@@ -784,3 +784,56 @@ in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
 in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
 in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
 in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 15:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('posts')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=posts
+---
+2015/12/02 15:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('posts')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/posts
+---
+2015/12/02 15:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Беда, печаль, нет такой странички.' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/view
+---
+2015/12/02 15:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "vie".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('vie')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('vie')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/vie')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/vie
+---
+2015/12/02 15:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vie".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('vie')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/vie
+---
