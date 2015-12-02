@@ -87,6 +87,15 @@ class Post extends CActiveRecord
 	    $this->tags=Tag::array2string(array_unique(Tag::string2array($this->tags)));
 	}
 
+	public function getTagLinks()
+	{
+		$links=array();
+		foreach(Tag::string2array($this->tags) as $tag)
+			$links[]=CHtml::link(CHtml::encode($tag), array('post/index', 'tag'=>$tag));
+		return $links;
+	}
+
+
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */

@@ -10,6 +10,10 @@
  */
 class Tag extends CActiveRecord
 {
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
 	/**
 	 * @return string the associated database table name
 	 */
@@ -29,9 +33,7 @@ class Tag extends CActiveRecord
 			array('name', 'required'),
 			array('frequency', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>128),
-			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
-			array('id, name, frequency', 'safe', 'on'=>'search'),
+
 		);
 	}
 
@@ -52,10 +54,47 @@ class Tag extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
+			'id' => 'Id',
 			'name' => 'Name',
 			'frequency' => 'Frequency',
 		);
+	}
+
+	public function findTagWeights($limit=20)
+	{
+		$models=$this->findAll(array(
+			'order'=>'frequency DESC',
+			'limit'=>$limit,
+		));
+
+		$total=0;
+		foreach($models as $model)
+			$total+=$model->frequency;
+
+		$tags=array();
+		if($total>0)
+		{
+			foreach($models as $model)
+				$tags[$model->name]=8+(int)(16*$model->frequency/($total+10));
+			ksort($tags);
+		}
+		return $tags;
+	}
+
+	public function suggestTags($keyword,$limit=20)
+	{
+		$tags=$this->findAll(array(
+			'condition'=>'name LIKE :keyword',
+			'order'=>'frequency DESC, Name',
+			'limit'=>$limit,
+			'params'=>array(
+				':keyword'=>'%'.strtr($keyword,array('%'=>'\%', '_'=>'\_', '\\'=>'\\\\')).'%',
+			),
+		));
+		$names=array();
+		foreach($tags as $tag)
+			$names[]=$tag->name;
+		return $names;
 	}
 
 	/**
@@ -70,20 +109,7 @@ class Tag extends CActiveRecord
 	 * @return CActiveDataProvider the data provider that can return the models
 	 * based on the search/filter conditions.
 	 */
-	public function search()
-	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
 
-		$criteria=new CDbCriteria;
-
-		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('frequency',$this->frequency);
-
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
-	}
 
 	public static function string2array($tags)
 	{
@@ -94,6 +120,8 @@ class Tag extends CActiveRecord
 	{
 	    return implode(', ',$tags);
 	}
+
+	
 
 	public function updateFrequency($oldTags, $newTags)
 	{
@@ -130,14 +158,13 @@ class Tag extends CActiveRecord
 		$this->deleteAll('frequency<=0');
 	}
 
+
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
 	 * @return Tag the static model class
 	 */
-	public static function model($className=__CLASS__)
-	{
-		return parent::model($className);
-	}
+	
 }
