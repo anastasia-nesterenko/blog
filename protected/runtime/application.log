@@ -837,3 +837,315 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/index.php/vie
 ---
+2015/12/02 16:06:34 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:06:34 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:06:34 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:06:41 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:06:41 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:06:41 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:01 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:01 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:01 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:28 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:28 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:28 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:31 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:31 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:31 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:31 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:31 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:31 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:49 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:49 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:49 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:55 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:55 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:55 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:57 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:57 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:57 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:57 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:57 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:07:57 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:12 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:12 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:12 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:32 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:32 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:32 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:41 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:41 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:08:41 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:05 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:05 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:05 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:13 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:13 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:13 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:15 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:15 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:15 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:15 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:15 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:15 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:31 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:31 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:31 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:31 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:31 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:31 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:58 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:58 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:09:58 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:03 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:03 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:03 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:18 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:18 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:18 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:20 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:20 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:20 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:33 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:33 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:10:33 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:11:17 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:11:17 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:11:17 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (87)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:11:17 [warning] [application] Failed to set unsafe attribute "status" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:11:17 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:11:17 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
