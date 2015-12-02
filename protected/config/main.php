@@ -35,6 +35,8 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 
+		'defaultController'=>'post',
+
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
@@ -46,11 +48,16 @@ return array(
 			),
 		),
 	
+		'cache'=>array(
+			'class'=>'CDbCache',
+		),
 
 		// database settings are configured in database.php
 		'db'=>array(
+			'class'=>'system.db.CDbConnection',
 			'connectionString'=>'sqlite:protected/data/blog.db',
         		'tablePrefix'=>'tbl_',
+			'schemaCachingDuration'=>3600,
        	 	),
 
 		'errorHandler'=>array(

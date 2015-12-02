@@ -187,7 +187,7 @@ class PostController extends Controller
 				$this->_model=Post::model()->findByPk($_GET['id'], $condition);
 			}
 			if($this->_model===null)
-				throw new CHttpException(404,'Беда, печаль, нет такой странички.');
+				throw new CException('Post number '.$_GET['id'].' not found');
 		}
 		return $this->_model;
 	}

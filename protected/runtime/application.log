@@ -1149,3 +1149,624 @@ in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
 in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (81)
 in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php (46)
 in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:23:47 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:878
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php
+---
+2015/12/02 16:24:01 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:878
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2015/12/02 16:26:59 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:878
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2015/12/02 16:39:35 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1449070775
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:39:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: YiiCache. The SQL statement executed was: DELETE FROM YiiCache WHERE expire>0 AND expire<1449070775.
+in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php (13)
+2015/12/02 16:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/user
+---
+2015/12/02 16:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/users
+---
+2015/12/02 16:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Беда, печаль, нет такой странички.' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 16:58:38 [error] [php] Trying to get property of non-object (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\view.php:7)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(50): PostController->render()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post/6
+2015/12/02 16:59:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Беда, печаль, нет такой странички.' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:191
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 17:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Беда, печаль, нет такой странички.' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/4
+HTTP_REFERER=http://localhost:8080/index.php/post
+---
+2015/12/02 17:09:50 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Беда, печаль, нет такой странички.' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/4
+HTTP_REFERER=http://localhost:8080/index.php/post
+---
+2015/12/02 17:10:02 [error] [exception.CHttpException.Беда, печаль, нет такой странички.] exception 'CHttpException' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/4
+HTTP_REFERER=http://localhost:8080/index.php/post
+---
+2015/12/02 17:10:32 [error] [exception.CHttpException.All Bad] exception 'CHttpException' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/4
+HTTP_REFERER=http://localhost:8080/index.php/post
+---
+2015/12/02 17:15:27 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/4
+HTTP_REFERER=http://localhost:8080/index.php/post
+---
+2015/12/02 17:15:32 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 17:15:45 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 17:16:03 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 17:16:05 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 17:16:10 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/8
+---
+2015/12/02 17:16:36 [error] [exception.CException] exception 'CException' with message 'All Bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:17:17 [error] [php] Trying to get property of non-object (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\view.php:7)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(50): PostController->render()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post/5
+2015/12/02 17:17:30 [error] [php] Trying to get property of non-object (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\view.php:7)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(50): PostController->render()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post/5
+2015/12/02 17:17:31 [error] [php] Trying to get property of non-object (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\view.php:7)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(50): PostController->render()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post/5
+2015/12/02 17:17:54 [error] [exception.CException] exception 'CException' with message 'Всё плохо' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:17:55 [error] [exception.CException] exception 'CException' with message 'Всё плохо' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:18:13 [error] [exception.CException] exception 'CException' with message 'All bad Всё плохо' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:18:15 [error] [exception.CException] exception 'CException' with message 'All bad Всё плохо' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:18:22 [error] [exception.CException] exception 'CException' with message 'All bad' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:21:44 [error] [exception.CException] exception 'CException' with message '5' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:192
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:23:37 [error] [exception.CException] exception 'CException' with message 'Post number5 not found' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:192
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:23:53 [error] [exception.CException] exception 'CException' with message 'Post number 5 not found' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:192
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:24:10 [error] [exception.CException] exception 'CException' with message 'Post number 5 not found' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:192
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:24:28 [error] [exception.CException] exception 'CException' with message 'Post number 5 not found' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/5
+---
+2015/12/02 17:24:36 [error] [exception.CException] exception 'CException' with message 'Post number 6 not found' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/6
+---
+2015/12/02 17:24:40 [error] [exception.CException] exception 'CException' with message 'Post number 666 not found' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php:190
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(45): PostController->loadModel()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('view')
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/post/666
+---
