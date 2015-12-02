@@ -70,6 +70,11 @@ class Comment extends CActiveRecord
 			return CHtml::encode($this->author);
 	}
 
+	public function getPendingCommentCount()
+	{
+		return $this->count('status='.self::STATUS_PENDING);
+	}
+
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
