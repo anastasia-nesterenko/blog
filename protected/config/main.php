@@ -26,7 +26,7 @@ return array(
 			//'ipFilters'=>array('127.0.0.1','::1'),
 		),
 	),
-
+	'defaultController'=>'post',
 	// application components
 	'components'=>array(
 
@@ -35,18 +35,19 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 
-		'defaultController'=>'post',
+	
 
 		// uncomment the following to enable URLs in path-format
 		
-		'urlManager'=>array(
-			'urlFormat'=>'path',
-			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+	'urlManager'=>array(
+		'urlFormat'=>'path',
+		'rules'=>array(
+			'post/<id:\d+>/<title:.*?>'=>'post/view',
+			'posts/<tag:.*?>'=>'post/index',
+			'post/update/<id:\d+>'=>'post/update',
+			'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),
+	),
 	
 		'cache'=>array(
 			'class'=>'CDbCache',

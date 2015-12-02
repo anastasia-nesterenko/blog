@@ -1770,3 +1770,304 @@ Stack trace:
 #14 {main}
 REQUEST_URI=/index.php/post/666
 ---
+2015/12/02 17:44:42 [error] [php] Use of undefined constant Create - assumed 'Create' (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\_view.php:28)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\zii\widgets\CListView.php(291): PostController->renderFile()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\zii\widgets\CBaseListView.php(181): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\zii\widgets\CBaseListView.php(149): CListView->renderContent()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CBaseController.php(181): CListView->run()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\index.php(11): PostController->widget()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CBaseController.php(126): require()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CBaseController.php(95): PostController->renderInternal()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(156): PostController->render()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#18 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#21 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#22 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#24 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post
+2015/12/02 18:01:54 [error] [php] Use of undefined constant create_time - assumed 'create_time' (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\view.php:29)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(50): PostController->render()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post/1
+2015/12/02 18:02:13 [error] [php] date() expects parameter 2 to be long, string given (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\post\view.php:29)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CBaseController.php(95): PostController->renderInternal()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(869): PostController->renderFile()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(782): PostController->renderPartial()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\PostController.php(50): PostController->render()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\actions\CInlineAction.php(49): PostController->actionView()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(265): PostController->runActionWithFilters()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): PostController->run()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/post/1
+2015/12/02 18:06:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%D0%BD%D0%B5&limit=10&timestamp=1449076011321
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:06:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%E2%84%96&limit=10&timestamp=1449076015236
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:06:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%23&limit=10&timestamp=1449076018004
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%23%D0%BD%D0%B0&limit=10&timestamp=1449076019396
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%23%D0%BD%D0%B0%D0%B4%D0%B5&limit=10&timestamp=1449076019957
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%23%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0&limit=10&timestamp=1449076021043
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%23%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0&limit=10&timestamp=1449076033195
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%23%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0&limit=10&timestamp=1449076033909
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0&limit=10&timestamp=1449076044189
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=ho&limit=10&timestamp=1449076045069
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=hop&limit=10&timestamp=1449076046888
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=hope&limit=10&timestamp=1449076047289
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 18:57:30 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CBaseController.php(214): CContentDecorator->run()
+#5 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CBaseController.php(308): SiteController->endWidget()
+#6 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CBaseController.php(126): require()
+#8 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(14): CWebApplication->run()
+REQUEST_URI=/index.php
+2015/12/02 19:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=a&limit=10&timestamp=1449082729117
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 19:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=amu&limit=10&timestamp=1449082730060
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 19:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=amuzed&limit=10&timestamp=1449082731224
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 20:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('suggestTags')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('suggestTags')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/suggestTag...')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/suggestTags?q=friend&limit=10&timestamp=1449082849778
+HTTP_REFERER=http://localhost:8080/index.php/post/create
+---
+2015/12/02 20:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts/yii".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/yii')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/posts/yii
+---
+2015/12/02 20:43:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts/friend".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/friend')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/posts/friend
+---
+2015/12/02 20:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "friend".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('friend')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('friend')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/friend')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/friend
+---
+2015/12/02 20:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "friend".' in C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('friend')
+#1 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('friend')
+#2 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/friend')
+#3 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\vendor\yiisoft\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Users\root\Desktop\PHP\USBWebserver v8.6\root\blog\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/friend
+---

@@ -16,16 +16,16 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Post #<?php echo $model->id; ?></h1>
+<h1><?php echo $model->title; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'id',
-		'title',
+		//'id',
+		//'title',
 		'content',
 		'tags',
-		'status',
+		//'status',
 		'create_time',
 		'update_time',
 		'author_id',
@@ -34,8 +34,9 @@ $this->menu=array(
 
 <div id="comments">
     <?php if($model->commentCount>=1): ?>
+	<br>
         <h3>
-            <?php echo $model->commentCount . 'comment(s)'; ?>
+            <?php echo $model->commentCount . ' comment(s):'; ?>
         </h3>
  
         <?php $this->renderPartial('_comments',array(
@@ -43,7 +44,7 @@ $this->menu=array(
             'comments'=>$model->comments,
         )); ?>
     <?php endif; ?>
-    
+    <br><br>
     <h3>Write a comment</h3>
  
     <?php if(Yii::app()->user->hasFlash('commentSubmitted')): ?>

@@ -107,8 +107,8 @@ class Post extends CActiveRecord
 			'content' => 'Content',
 			'tags' => 'Tags',
 			'status' => 'Status',
-			'create_time' => 'Create Time',
-			'update_time' => 'Update Time',
+			'create_time' => 'Created',
+			'update_time' => 'Updated',
 			'author_id' => 'Author',
 		);
 	}

@@ -53,7 +53,7 @@
 
 	</div>
 
-	<div class="row">
+<!--	<div class="row">
 		<?php echo $form->labelEx($model,'create_time'); ?>
 		<?php echo $form->textField($model,'create_time'); ?>
 		<?php echo $form->error($model,'create_time'); ?>
@@ -70,7 +70,7 @@
 		<?php echo $form->textField($model,'author_id'); ?>
 		<?php echo $form->error($model,'author_id'); ?>
 	</div>
-
+-->
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
