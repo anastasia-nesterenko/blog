@@ -3,13 +3,13 @@
 /* @var $model Post */
 
 $this->breadcrumbs=array(
-	'Posts'=>array('index'),
-	'Create',
+    'Posts'=>array('index'),
+    'Create',
 );
 
 $this->menu=array(
-	array('label'=>'List Post', 'url'=>array('index')),
-	array('label'=>'Manage Post', 'url'=>array('admin')),
+    array('label'=>'List Post', 'url'=>array('index')),
+    array('label'=>'Manage Post', 'url'=>array('admin')),
 );
 ?>
 

@@ -3,8 +3,8 @@
 /* @var $model Post */
 
 $this->breadcrumbs=array(
-	'Posts'=>array('index'),
-	$model->title,
+    'Posts'=>array('index'),
+    $model->title,
 );
 
 ?>
@@ -12,22 +12,22 @@ $this->breadcrumbs=array(
 <h1><?php echo $model->title; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		//'id',
-		//'title',
-		'content',
-		'tags',
-		//'status',
-		'create_time',
-		'update_time',
-		'author_id',
-	),
+    'data'=>$model,
+    'attributes'=>array(
+        //'id',
+        //'title',
+        'content',
+        'tags',
+        //'status',
+        'create_time',
+        'update_time',
+        'author_id',
+    ),
 )); ?>
 
 <div id="comments">
     <?php if($model->commentCount>=1): ?>
-	<br>
+    <br>
         <h3>
             <?php echo $model->commentCount . ' comment(s):'; ?>
         </h3>
