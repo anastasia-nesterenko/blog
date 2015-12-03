@@ -56,9 +56,9 @@ return array(
 		// database settings are configured in database.php
 		'db'=>array(
 			'class'=>'system.db.CDbConnection',
-			'connectionString'=>'sqlite:protected/data/blog.db',
+			'connectionString'=>'sqlite:../protected/data/blog.db',
         		'tablePrefix'=>'tbl_',
-			'schemaCachingDuration'=>3600,
+			//'schemaCachingDuration'=>3600,
        	 	),
 
 		'errorHandler'=>array(
